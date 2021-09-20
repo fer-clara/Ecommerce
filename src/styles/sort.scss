@@ -1,0 +1,44 @@
+.custom-select {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 6px;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        padding: 0 15px;
+
+        img {
+            padding-right: 7px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    select {
+        border: 0;
+        font-size: 22px;
+        font-weight: 400;
+        appearance: none;
+        width: 100px;
+        background: url(./../assets/images/arrow.svg) no-repeat;
+        background-position: right;
+        &:focus-visible {
+            border: 0;
+            outline: none;
+        }
+        option {
+            padding: 8px;
+        }
+    }
+
+      
+
+}

@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: 92px;
+    border-bottom: 4px solid #E4E4E4;
+    padding: 0px 33px;
+    max-width: 1290px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+        padding: 0 5px 0 0;
+        height: 124px;
+    }
+    
+}
+
+.logo {
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 20px;
+    }
+
+    img {
+        width: 124px;
+    }
+}
+
+.minicart {
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 15px;
+    }
+
+    img {
+        width: 32px;
+    }
+}
